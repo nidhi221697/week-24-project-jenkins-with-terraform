@@ -19,9 +19,9 @@ pipeline {
         stage('checkout') {
             steps {
                  script{
-                        dir("terraform")
-                        {
-                            https://github.com/nidhi221697/week-24-project-jenkins-with-terraform.git"
+                       dir("terraform")
+                     {
+                           "https://github.com/nidhi221697/week-24-project-jenkins-with-terraform.git"
                         }
                     }
                 }

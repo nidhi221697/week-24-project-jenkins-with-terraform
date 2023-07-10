@@ -21,7 +21,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/troy-ingram/week-24-project.git"
+                            https://github.com/nidhi221697/week-24-project-jenkins-with-terraform.git"
                         }
                     }
                 }

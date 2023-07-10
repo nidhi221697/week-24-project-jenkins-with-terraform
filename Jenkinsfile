@@ -26,7 +26,6 @@ pipeline {
                     }
                 }
             }
-
         stage('Plan') {
             when {
                 not {
@@ -51,10 +50,6 @@ pipeline {
                     equals expected: true, actual: params.destroy
                 }
            }
-           
-                
-            
-
            steps {
                script {
                     def plan = readFile 'tfplan.txt'
